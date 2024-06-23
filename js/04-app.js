@@ -9,10 +9,15 @@ const carrito = [
     { nombre: 'Laptop', precio: 800},
 ];
 
-const obtenerNombres = productos => {
-    return productos.nombre
+const nombres = producto =>{
+    return producto.nombre
 }
 
-const resultado = carrito.map(obtenerNombres);
-console.log(resultado);
+const res = carrito.map(nombres);
+ console.log(res);
 console.log(carrito);
+
+const m400 = p => p.precio >= 400;
+// const res2 = carrito.map(m400) // retornaría true o false
+const res2 = carrito.filter(m400)
+console.log(res2);

@@ -1,20 +1,21 @@
-const sumar = (a,b,c) => a + b + c;
+const sumar = (a,b,c) => a+b+c;
 
-// const resultado = suma(1,2,3);
 
-// const parcial = a => (b,c) => suma(a,b,c);
+// // const parcial = a => (b,c) => sumar(a,b,c);
 
-// const primerNumero = parcial(5)
-// const mostrarResultado = primerNumero(2,3);
+// const primerNumero =parcial(5)
+// const resultado = primerNumero(5,5)
+// console.log(resultado);
 
-// console.log(mostrarResultado);
 
-const parcial = a => b => c => sumar(a,b,c);
+const parcial = a => b => c => sumar(a,b,c)
 
-// const primerNumero = parcial(1);
-// const segundoNumero = primerNumero(2);
-// const resultado = segundoNumero(3);
+const res = parcial(5)
+const sul = res(4)
+const tado = sul(3)
 
-// practicamente es lo mismo    
-const resultado = parcial(1)(2)(3);
-console.log(resultado);
+console.log(tado);
+
+
+const res2 = parcial(1)(2)(3);
+console.log(res2);

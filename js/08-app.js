@@ -1,15 +1,28 @@
-const obtenerCliente = () => {
+const mostrarCliente = () =>{
+    const nombre = "camilo"
 
-    const nombre = 'camilo';
-
-    function mostrarNombre(){
-
+    function imprimirNombre(){
         console.log(nombre);
     }
 
-    return mostrarNombre;
+    return imprimirNombre;
 }
 
-const resultado = obtenerCliente();
+const aver = mostrarCliente();
+debugger;
+const nombre = "jose"
 
-console.log(resultado());
+console.log("asd");
+
+
+
+// const nombre = "camilo";
+
+// function mostrarCliente(){
+//     const nombre = 'miguel'
+//     console.log(nombre);
+// }
+
+// mostrarCliente()
+
+// console.log(nombre);

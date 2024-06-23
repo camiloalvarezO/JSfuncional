@@ -1,6 +1,7 @@
-const suma = (a,b) => a + b;
-const multiplicar = (a,b) => a * b;
+const suma = (a,b) => a+b;
+const multiplicar = (a,b) => a*b;
 
-const sumarOMultiplicar = fn => fn(10,20)
-console.log(sumarOMultiplicar(suma));
-console.log(sumarOMultiplicar(multiplicar));
+const sumarOmultiplicar = fn => fn(10,20)
+
+console.log(sumarOmultiplicar(suma));
+console.log(sumarOmultiplicar(multiplicar));

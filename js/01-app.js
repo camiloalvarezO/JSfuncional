@@ -1,7 +1,7 @@
-const suma = function(a,b){
-    return a + b;
+const suma = function (a,b) {
+    return a+b;
 }
 
-const resultado = suma;
 
-console.log(resultado(10,20));
+const resultado = suma;
+console.log(resultado(20,53));

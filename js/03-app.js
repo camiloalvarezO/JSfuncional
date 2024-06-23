@@ -9,14 +9,14 @@ const carrito = [
     { nombre: 'Laptop', precio: 800},
 ];
 
-// const resultado = carrito.filter( producto =>{
-//     return producto.precio > 400
-// })
+const resultado = carrito.filter(producto => {
+    return producto.precio >= 400;
+})
 
+console.log(resultado);
 
-const mayor400 = producto => {
-    return producto.precio > 400;
+const menor400 = producto =>{
+    return producto.precio <= 400;
 }
-
-const resultado = carrito.filter(mayor400);
-    console.log(resultado);q
+const res = carrito.filter(menor400)
+console.log(res);

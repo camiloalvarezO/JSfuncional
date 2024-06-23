@@ -1,8 +1,9 @@
 // funciones puras
 
-const duplicar = numero => numero *2;
-const numero1 = 20;
+const dividir = numero => numero/2;
 
-const resultado = duplicar(numero1)
-console.log(resultado);
+const numero1 = 30
+
+const res = dividir(numero1);
+console.log(res);
 console.log(numero1);
